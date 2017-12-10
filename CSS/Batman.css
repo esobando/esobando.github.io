@@ -1,0 +1,53 @@
+<style>
+	table#t01 
+	{
+		border: 1px solid black;
+		background-color: Black;
+		font-color: Red;
+		
+		
+	}
+
+	#d01
+	{
+		background-color:black;
+		font-color: Red;
+		font-family: " Ariel";
+	}
+	
+	.test
+	{
+		font-family: " Ariel";
+	}
+	
+	
+	table#02
+	{
+		border: 1px solid black;
+	}
+	td#t03
+	{
+		background-color:blue;
+	}
+	input[type=text] 
+	{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	}
+	input[type=text]:focus {
+    width: 100%;
+	}
+	
+
+
+</style>
