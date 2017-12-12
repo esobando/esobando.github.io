@@ -1,0 +1,194 @@
+<style>
+#TName{
+font-size: 25px; 
+align-content: left;
+width: 300px;
+}
+
+#TracerImage{ 
+border-style: 2px solid black;
+align-content: left;
+ border-bottom-right-radius: 2em;
+ border-bottom-left-radius: 2em;
+  padding: 10px 40px; 
+ 
+
+
+}
+#TracerBackgroundColor{
+background-color: yellow;
+} 
+
+
+#button4 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button5 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#ReaperTable{
+	 background-color: black;
+	border: 1px solid black;
+	color: white;
+}
+#ReaperName{
+	font-size: 300%;	 
+align-content: left;
+width: 300px;
+}
+
+#Soldier76{
+	font-size: 300%;
+	 background-color: blue;
+	border: 1px solid black;
+	color: white;
+}
+#button6 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#GenjiBody{
+background-color: green;
+border: 1px solid black;
+}
+#button7 {
+    background-color: silver;
+    border: none;
+    color: green;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#PharahBody{
+
+background-color: #0080FF;
+border: 1px solid black;
+
+}
+
+#button8 {
+    background-color: Black;
+    border: none;
+    color: yellow;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#SombraHeader{
+background-color: #9933ff;
+border: 1px solid black;
+ font-size: 45px;
+}
+#SombraBody{
+background-color: #9933ff;
+border: 1px solid black;
+ font-size: 25px;
+}
+
+#button9 {
+    background-color: Black;
+    border: none;
+    color: #9933ff;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+	align-content: center;
+}
+images{
+	border: 1px solid black;
+}
+
+#button10 {
+    background-color: black;
+    border: none;
+    color: #ffcc00;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+	align-content: center;
+}
+
+#DoomfistName{
+	
+background-color:  #ffcc00;
+	border: 1px solid black;
+	color: black;
+}
+
+#MccreeHeader{
+	background-color: red;
+	border: 1px solid black;
+	 font-size: 45px;
+	 font-style: italic;
+}
+#MccreeBody{
+	background-color: red;
+	border: 1px solid black;
+}
+#MccreeImage{
+	border: 1px solid black;
+}
+
+
+
+#buttonMC {
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+	align-content: center;
+}
+
+
+</style>
+
