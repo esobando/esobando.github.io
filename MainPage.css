@@ -1,4 +1,4 @@
-
+<style>
    h1{
 	font-family:fantasy;
 	color: blue;
@@ -11,4 +11,10 @@ h2{
 table{
 	border-color: blue;
 }
+#Bar{
+	background-color: red;
+
+}
+
+</style>
 
