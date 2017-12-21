@@ -1,7 +1,9 @@
 <style>
 #SupTable
 {
-	border-style: 2px solid black;
+	background-color: black;
+	border: 1px solid black;
+	color: red;
 
 }
 </style>
