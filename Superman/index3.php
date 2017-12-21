@@ -1,5 +1,5 @@
-<html>
 #!/usr/local/bin/php
+<html>
 <?php
 	<body >
 	<table style="width:100%" align="center"> 
