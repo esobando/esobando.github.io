@@ -1,12 +1,98 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 <title> My Page </title>
 <link rel="stylesheet" type="text/css" href="MainPage.css"/>
-</head>
 
 
 
+
+
+
+	
+<style>
+
+        nav ul ul 
+        {
+            display: none;
+        }
+        nav 
+        {
+            text-align:center;
+        }
+        nav ul li:hover > ul 
+        {
+            display: block;
+        }
+        nav ul 
+        {
+            background: black; 
+            background: linear-gradient(top, black 0%,black 100%);  
+            background: -moz-linear-gradient(top, black 0%, black 100%); 
+            background: -webkit-linear-gradient(top, black 0%,black 100%); 
+            box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+            padding: 0 20px;
+            border-radius: 10px;
+            border-style:solid;
+            border-color: red;  
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+        nav ul:after 
+        {
+            content: ""; clear: both; display: block;
+        }
+        nav ul li 
+        {
+            float: left;
+        }
+        nav ul li:hover 
+        {
+            background: Black;
+            background: linear-gradient(top, red 0%, red 40%);
+            background: -moz-linear-gradient(top, red 0%, red 40%);
+            background: -webkit-linear-gradient(top, red 0%,red 40%);
+        }
+        nav ul li:hover a 
+        {
+            color: black;
+        }
+        nav ul li a 
+        {
+	    display: block; padding: 25px 40px;
+	    color: white; text-decoration: none;
+        }
+        nav ul ul 
+        {
+	    background: red; border-radius: 0px; padding: 0;
+	    position: absolute; top: 100%;
+        }
+        nav ul ul li 
+        {
+            float: none; 
+            border-top: 1px solid red;
+            border-bottom: 1px solid black;
+            position: relative;
+        }
+        nav ul ul li a 
+        {
+            padding: 15px 40px;
+            color: red;
+        }	
+        nav ul ul li a:hover 
+        {
+	    background: #4b545f;
+        }
+        nav ul ul ul 
+        {
+	    position: absolute; left: 100%; top:0;
+        }
+    </style>		
+		
+	</head>
+	
 <body>
 
 		
@@ -17,44 +103,25 @@
 	</div>	
 	</table>
 </body>
-
-
-	
-<body >
-	<table style="width:100%" align="center"> 
-	<tbody style= "background-color: black">
-		<div align="center" valign="center" id="Line">
+	<nav align="Center">
+	<ul>
+		<li><a href="https://esobando.github.io/"> <b> Home </b></a></li>
+		<li><a href="https://esobando.github.io/Heroes.html"> <b> Heroes </b></a>
 			
-			<a href  = "https://esobando.github.io/index.html"><font size="16"> Home </font></a>  &nbsp;  |  &nbsp;
-		
+		</li>
+		<li><a href="https://esobando.github.io/"> <b> Overwatch </b></a></li>
+		<li><a href="https://esobando.github.io/Overwatch/MainPage.html"> <b> Overwatch/Attack </b></a>
 			
-		
-			<a href = "https://esobando.github.io/Heroes.html" ><font size="23"> DC Heroes </font> </a>&nbsp;  |  &nbsp;
-		
-		
-			<a href = "https://esobando.github.io/Overwatch/MainPage.html" ><font size="16"> Overwatch/AttackSquad </font> </a> &nbsp;  |  &nbsp;
-		
-		
-			<a href = "https://esobando.github.io/Overwatch/TankPage.html" ><font size="16"> Overwatch/TankSquad </font> </a>&nbsp;  |  &nbsp;
-
-			<a href = "https://esobando.github.io/Overwatch/TankPage.html" ><font size="16"> Overwatch/Support </font> </a> 
-			</div>	
-		</tr>
-	</tbody>	
-	</table>
-</body>
+		</li>
+		<li><a href="https://esobando.github.io/Overwatch/TankPage.html"><b>Overwatch/Tank</b></a>
+                    
+                </li>
+                <li><a href="https://esobando.github.io/Overwatch/TankPage.html"><b>Overwatch/Supports</b></a></li>
+               
 
 
-
-
-
- 
-
-
-
-
-
-<!-- dccomics380 -->
+	</ul>
+</nav>
 
 
 </html>
