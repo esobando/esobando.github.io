@@ -1,8 +1,4 @@
-<html>
-<head>
-		<title>Wally West</title>
-<link rel="stylesheet" type="text/css" href="style.css" >		
-		<style>
+<style>
 
         nav ul ul 
         {
@@ -82,7 +78,7 @@
         }
 		
 		
-		<!-- #FH{
+		#FH{
 			border-style: double;
 			border-color: black;
 			 background: red;
@@ -102,31 +98,5 @@
 			border-style: outset;
 			border-color: blue;
 			height: 54%;
-		} --> -->
+		} -->
     </style>		
-		
-	</head>
-	
-	<nav align="Center">
-	<ul>
-		
-		<li><a href="https://esobando.github.io/Heroes.html"> <b> Heroes </b></a>
-			
-		</li>
-		<li><a href="https://esobando.github.io/TheFlash/index5.html"> <b> Barry Allen </b></a></li>
-		<li><a href="https://esobando.github.io/TheFlash/index6.html"> <b> Wally West </b></a></li>
-		<li><a href="https://esobando.github.io/Overwatch/MainPage.html"> <b> Movies </b></a>
-			
-		</li>
-		
-
-	</ul>
-</nav>
-
-
-<body>
-	<nav id="FH">
-		The Flash(Wally West)
-	</nav>
-</body>
-</html>
