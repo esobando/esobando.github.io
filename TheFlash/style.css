@@ -86,13 +86,13 @@
 		}
 		
 		
-		<!-- #WWSA{
-			 resize: both;
-			overflow: auto;
+		#FWW{
+			  background: red;
 			border-style: outset;
-			border-color: red;
+			border-color: yellow;
 			height: 54%;
 		}
+		<!--
 		#WWMA{
 			overflow: auto;
 			border-style: outset;
