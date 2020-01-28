@@ -123,20 +123,25 @@
 			
 			
 		}
-		#JS{
-	
-  				float: left;
-  				width: 33.33%;
-  				padding: 5px;
-		}
-		row::after {
-  				content: "";
-  				clear: both;
-  				display: table;
-			}
-		* {
-  			box-sizing: border-box;
-		   }
+		         .container {
+         margin-top:5px;
+         margin-left:5px;
+         }
+         .container ul {
+         color: #E59934;
+         }
+         .container ul li {
+         margin:5px;
+         padding:5px;
+         width: 100px;
+         height:70px;
+         float: left; 
+         border: 1px solid lightgray;
+         list-style:none;
+         }
+         .container ul li:hover {
+         border: 1px solid orange;
+         }
 
     </style>		
 		
@@ -157,16 +162,13 @@
 </nav>
 
 <body>
-<div class="row">
-	<div class="JS">
-	<img src= ".\GreenLanternImages\JohnStewart.jpg" style="width:100%>
-	</div>
-	<div class="JS">
-	<img src= ".\GreenLanternImages\JohnStewart2.jpg" style="width:100%">
-	</div>
-	<div class="JS">
-	<img src= ".\GreenLanternImages\JohnStewart2.jpg" style="width:100%">
-	</div>	
+<div class="container">
+	         <ul>
+            <li><img src= ".\GreenLanternImages\JohnStewart.jpg" style="width:100%"></li>
+            <li><img src= ".\GreenLanternImages\JohnStewart2.jpg" style="width:100%"></li>
+            <li><img src= ".\GreenLanternImages\JohnStewart2.jpg" style="width:100%"></li>
+         </ul>
+	
 	
 </div>	
 	
