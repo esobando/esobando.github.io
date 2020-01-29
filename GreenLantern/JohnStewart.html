@@ -123,20 +123,27 @@
 			
 			
 	}
-	#JSBorder {
+
+table {
   width:100%;
-
-
+}
+table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-
-
+}
+th, td {
   padding: 15px;
   text-align: left;
-
-
-  
-  color: black;
+}
+table#t01 tr:nth-child(even) {
+ 
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
 }
 		
 
@@ -159,7 +166,7 @@
 </nav>
 
 <body>
-<table id="JSBorder">
+<table "id="t01">
 	<tr>
 	<td>
 		A
@@ -206,83 +213,8 @@
 	</tr>	
 </table>
 	
-<table id="JSBorder">
-	<tr>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-		
-	</tr>
-	<tr>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-		
-	</tr>	
-	<tr>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-	<td>
-		B
-	</td>
-		
-	</tr>	
-</table>
 
-<table id="JSBorder">
-	<tr>
-	<td>
-		C
-	</td>
-		
-	<td>
-		C
-	</td>
-	<td>
-		C
-	</td>
-	</tr>
-	<tr>
-	<td>
-		C
-	</td>
-		
-	<td>
-		C
-	</td>
-	<td>
-		C
-	</td>
-	</tr>
-	<tr>
-	<td>
-		C
-	</td>
-		
-	<td>
-		C
-	</td>
-	<td>
-		C
-	</td>
-	</tr>
-</table>
+
 	
 	
 	
